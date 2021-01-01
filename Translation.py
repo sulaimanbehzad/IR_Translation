@@ -3,8 +3,8 @@ from google_trans_new import google_translator
 from tinydb import TinyDB, Query
 
 
-begin = 17838
-end = 17839
+begin = 17839
+end = 19820
 db = TinyDB('db.json')
 user = Query()
 translator = google_translator()

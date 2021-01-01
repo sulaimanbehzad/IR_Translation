@@ -43,7 +43,7 @@ class Ui_MainWindow(object):
         self.lineEntry2 = QLineEdit(self.centralwidget)
         self.lineEntry2.move(105, 48)
         self.lineEntry2.resize(485, 20)
-        self.lineEntry2.setText(list[self.index][3])
+        self.lineEntry2.setText(str(list[self.index][3]))
 
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(270,100,50,30))
